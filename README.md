@@ -2,14 +2,14 @@
 博客地址http://blog.csdn.net/zou249014591/article/details/78270327
     看完了如何做词云的教程，试用wx聊天记录做一个demo练手。关于词云，网上有大量的教程，可随意参看，注意python的版本问题即可。
     
-##WX聊天记录导出
+#WX聊天记录导出
 用到的工具是一款wx聊天记录查看软件，分享如下，侵权则删。 
 链接: https://pan.baidu.com/s/1c1EDh52 密码: 129q 
 使用：需要一个root后的手机，然后导出即可，对于使用了没有root的手机可以使用wx的聊天记录转移功能，将聊天记录转移到已root的手机，记得设置为只转移文字哦，不然效率很低。 
 由于我已经把记录删了，所以就不截图了，软件比较简单，自己琢磨即可。 
 导出后可以查看，但是不能直接导成文本（收费），没办法，只能手动复制粘贴。然后把昵称时间什么的 ctrl+h替换一下，（20171018 20:06）可以用正则表达式\([^\)]*\)来替换哦。
 
-##词云
+#词云
 ps：写demo建议使用Anaconda，挺方便。
 ```python
 %pylab inline
@@ -31,7 +31,7 @@ plt.imshow(wordcloud, interpolation='bilinear')
 plt.axis("off")
 ```
 
-##wordcloud几个参数
+#wordcloud几个参数
 font_path : 使用的字体的路径 
 width : int (default=400) //输出的画布宽度，默认为400像素 
 height : int (default=200) //输出的画布高度，默认为200像素 
