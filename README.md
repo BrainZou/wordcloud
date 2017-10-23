@@ -41,3 +41,5 @@ mask：就是文字所在的背景图啦，建议使用颜色较深的图。
 哦对，最后结果：
 ![这里写图片描述](http://img.blog.csdn.net/20171018104500022?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvem91MjQ5MDE0NTkx/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 妈的 智障！
+
+(miao.txt为聊天记录 遂未放入)
